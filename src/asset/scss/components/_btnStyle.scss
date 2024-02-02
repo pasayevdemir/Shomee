@@ -1,0 +1,90 @@
+$clr-fff: #fff;
+$clr-eb3: #eb3e32;
+$color_3: #333131;
+$bg-clr-eb3: #eb3e32;
+$bg-clr-fff: #fff;
+$bg-clr-transparent: transparent;
+
+.btn-theme {
+	background-color: $bg-clr-eb3;
+	border: 2px solid $clr-eb3;
+	color: $clr-fff;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1;
+	padding: 22px 62px 21px;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	&:hover {
+		background-color: $bg-clr-fff;
+		border-color: $bg-clr-eb3;
+		color: $clr-eb3;
+	}
+}
+.btn-theme.btn-sm {
+	font-weight: 500;
+	padding: 14px 28px 13px;
+	font-size: 16px;
+}
+.btn-theme-border {
+	background-color: $bg-clr-transparent;
+	border: 2px solid $clr-eb3;
+	color: $clr-eb3;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1;
+	padding: 21px 62px 22px;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	&:hover {
+		background-color: $bg-clr-eb3;
+		border-color: $bg-clr-eb3;
+		color: $clr-fff;
+	}
+}
+.btn-link {
+	color: $color_3;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: underline;
+	&:hover {
+		color: $clr-eb3;
+		text-decoration: underline;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.btn-theme {
+		font-weight: 500;
+		padding: 14px 28px 14px;
+		font-size: 16px;
+	}
+	.btn-theme-border {
+		font-weight: 500;
+		padding: 14px 28px 14px;
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.btn-theme {
+		padding: 12px 26px 13px;
+		font-size: 15px;
+	}
+	.btn-theme-border {
+		padding: 12px 26px 13px;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.btn-theme.btn-sm {
+		padding: 11px 24px 11px;
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,115 @@
+$clr-000: #000;
+$clr-fff: #fff;
+$clr-eb3: #eb3e32;
+$clr-5875: #585757;
+$bg-clr-eb3: #eb3e32;
+$bg-clr-fff: #fff;
+
+.team-item {
+	margin-bottom: 30px;
+	.thumb {
+		position: relative;
+		overflow: hidden;
+		img {
+			border-radius: 50%;
+			width: 100%;
+		}
+		&:before {
+			background-color: $bg-clr-eb3;
+			border-radius: 50%;
+			content: "";
+			left: 0;
+			height: 100%;
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+			width: 100%;
+			transition: all 0.4s ease-out;
+			-webkit-transition: all 0.4s ease-out;
+			-moz-transition: all 0.4s ease-out;
+			-ms-transition: all 0.4s ease-out;
+			-o-transition: all 0.4s ease-out;
+		}
+		.member-icons {
+			bottom: 42px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			left: 50%;
+			margin-bottom: 40px;
+			opacity: 0;
+			position: absolute;
+			transform: translate(-50%, 0%);
+			-webkit-transform: translate(-50%, 0%);
+			-moz-transform: translate(-50%, 0%);
+			-ms-transform: translate(-50%, 0%);
+			-o-transform: translate(-50%, 0%);
+			visibility: hidden;
+			transition: all 0.4s ease-out;
+			-webkit-transition: all 0.4s ease-out;
+			-moz-transition: all 0.4s ease-out;
+			-ms-transition: all 0.4s ease-out;
+			-o-transition: all 0.4s ease-out;
+			a {
+				background-color: $bg-clr-fff;
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+				text-align: center;
+				border-radius: 7px;
+				color: $clr-000;
+				font-size: 16px;
+				+ {
+					a {
+						margin-left: 10px;
+					}
+				}
+				&:hover {
+					background-color: $bg-clr-eb3;
+					color: $clr-fff;
+				}
+			}
+		}
+	}
+	.content {
+		margin-top: 25px;
+		text-align: center;
+		.title {
+			font-size: 18px;
+			font-weight: 500;
+			margin-bottom: 7px;
+			a {
+				color: $clr-000;
+				&:hover {
+					color: $clr-eb3;
+				}
+			}
+		}
+		p {
+			color: $clr-5875;
+			font-size: 14px;
+			font-weight: 500;
+			text-transform: uppercase;
+			line-height: 1;
+		}
+	}
+	&:hover {
+		.thumb {
+			&:before {
+				opacity: 0.34;
+				visibility: visible;
+			}
+			.member-icons {
+				margin-bottom: 0;
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 575px) {
+	.team-item {
+		max-width: 290px;
+		margin: 0 auto 30px;
+	}
+}

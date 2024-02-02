@@ -1,0 +1,326 @@
+.contact-form .form-group {
+    margin-bottom: 30px;
+  }
+  .contact-form .form-group .form-control {
+    border: 1px solid #d7d7d7;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.14px;
+    height: 49px;
+    line-height: 49px;
+    padding: 8px 24px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .contact-form .form-group .form-control:active, .contact-form .form-group .form-control:focus {
+    border-color: #eb3e32;
+  }
+  .contact-form .form-group .form-control:active::-webkit-input-placeholder, .contact-form .form-group .form-control:focus::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000;
+  }
+  .contact-form .form-group .form-control:active::-moz-placeholder, .contact-form .form-group .form-control:focus::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000;
+  }
+  .contact-form .form-group .form-control:active:-ms-input-placeholder, .contact-form .form-group .form-control:focus:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+  }
+  .contact-form .form-group .form-control:active:-moz-placeholder, .contact-form .form-group .form-control:focus:-moz-placeholder {
+    /* Firefox 18- */
+    color: #000;
+  }
+  .contact-form .form-group .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0.14px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .contact-form .form-group .form-control::-webkit-input-placeholder:active, .contact-form .form-group .form-control::-webkit-input-placeholder:focus {
+    color: #000;
+  }
+  .contact-form .form-group .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0.14px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .contact-form .form-group .form-control::-moz-placeholder:active, .contact-form .form-group .form-control::-moz-placeholder:focus {
+    color: #000;
+  }
+  .contact-form .form-group .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0.14px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .contact-form .form-group .form-control:-ms-input-placeholder:active, .contact-form .form-group .form-control:-ms-input-placeholder:focus {
+    color: #000;
+  }
+  .contact-form .form-group .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0.14px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .contact-form .form-group .form-control:-moz-placeholder:active, .contact-form .form-group .form-control:-moz-placeholder:focus {
+    color: #000;
+  }
+  .contact-form .form-group textarea.form-control {
+    height: 250px;
+    line-height: 24px;
+    resize: inherit;
+    padding-top: 22px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .contact-form .form-group textarea.form-control {
+      height: 198px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .contact-form .form-group textarea.form-control {
+      height: 160px;
+    }
+  }
+  .contact-form .form-group .btn-theme {
+    margin-top: 60px;
+    padding: 21px 41px 22px;
+  }
+  @media only screen and (max-width: 991px) {
+    .contact-form .form-group .btn-theme {
+      margin-top: 30px;
+      padding: 15px 21px 17px;
+    }
+  }
+  
+  .form-message .alert-success {
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  .form-message .btn-close {
+    background: transparent;
+    font-size: 19px;
+    line-height: 22px;
+    padding: 0 0 0 1px;
+    margin: 0;
+    background-color: #85bba2;
+    border: 1px solid #79a591;
+    text-align: center;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 11px;
+  }
+  
+  .login-form-content {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+  .login-form-content .form-group {
+    margin-bottom: 25px;
+  }
+  .login-form-content .form-group label {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .login-form-content .form-group label .required {
+    color: #f00;
+  }
+  .login-form-content .form-group .form-control {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #e8e8e8;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .login-form-content .form-group .form-control:active, .login-form-content .form-group .form-control:focus {
+    border-color: #eb3e32;
+  }
+  .login-form-content .form-group .btn-login {
+    background-color: #333131;
+    border-color: #333131;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 64px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .login-form-content .form-group .btn-login:hover {
+    background-color: #eb3e32;
+    border-color: #eb3e32;
+  }
+  .login-form-content .account-info-group {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  @media only screen and (max-width: 479.98px) {
+    .login-form-content .account-info-group {
+      display: block;
+    }
+  }
+  .login-form-content .rememberme-account {
+    float: left;
+  }
+  @media only screen and (max-width: 479.98px) {
+    .login-form-content .rememberme-account {
+      float: none;
+    }
+  }
+  .login-form-content .rememberme-account .form-check {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .login-form-content .rememberme-account .form-check .form-check-input {
+    cursor: pointer;
+    width: 15px;
+    margin: 0;
+    height: 15px;
+    border-radius: 0;
+    border: 2px solid #e6e6e6;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+    position: relative;
+    top: -2px;
+  }
+  .login-form-content .rememberme-account .form-check .form-check-input:checked ~ .form-check-label {
+    border-color: #eb3e32;
+    color: #eb3e32;
+  }
+  .login-form-content .rememberme-account .form-check .form-check-input:checked[type=checkbox] {
+    background-color: #eb3e32;
+  }
+  .login-form-content .rememberme-account .form-check .form-check-label {
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0;
+    position: relative;
+    top: -1px;
+    padding-left: 8px;
+  }
+  .login-form-content .rememberme-account .form-check .form-check-label:hover {
+    color: #eb3e32;
+  }
+  .login-form-content .lost-password {
+    color: #8c8c8c;
+    font-size: 15px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+  }
+  .login-form-content .lost-password:hover {
+    color: #eb3e32;
+  }
+  
+  .register-form-content {
+    max-width: 570px;
+    margin: 0 auto 10px;
+  }
+  .register-form-content .form-group {
+    margin-bottom: 25px;
+  }
+  .register-form-content .form-group label {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .register-form-content .form-group label .required {
+    color: #f00;
+  }
+  .register-form-content .form-group .form-control {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #e8e8e8;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .register-form-content .form-group .form-control:active, .register-form-content .form-group .form-control:focus {
+    border-color: #eb3e32;
+  }
+  .register-form-content .form-group .btn-register {
+    background-color: #333131;
+    border-color: #333131;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 64px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+  }
+  .register-form-content .form-group .btn-register:hover {
+    background-color: #eb3e32;
+    border-color: #eb3e32;
+  }

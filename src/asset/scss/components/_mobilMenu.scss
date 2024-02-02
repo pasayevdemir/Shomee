@@ -1,0 +1,128 @@
+$clr-fff: #fff;
+$clr-inherit: inherit;
+$clr-eb3: #eb3e32;
+$bg-clr-transpar: transparent;
+$bg-clr-546: #5465FF;
+
+.res-mobile-menu {
+	margin: 0;
+	.slicknav_btn {
+		display: none;
+	}
+	.slicknav_menu {
+		background-color: $bg-clr-transpar;
+		padding: 0;
+	}
+	.slicknav_nav {
+		display: block !important;
+		padding: 26px 40px 50px;
+		margin: 0;
+		li {
+			a {
+				margin: 0;
+				background-color: $bg-clr-transpar;
+				line-height: 1;
+				font-size: 18px;
+				font-weight: 400;
+				padding: 17px 0;
+				letter-spacing: 0.4px;
+				color: $clr-fff;
+				opacity: 1;
+				position: relative;
+				.slicknav_arrow {
+					font-size: 12px;
+					right: 0;
+					position: absolute;
+					top: 50%;
+					margin: 0;
+					-webkit-transform: translate(0%, -50%);
+					transform: translate(0%, -50%);
+				}
+				&:hover {
+					color: $clr-inherit;
+					background-color: $bg-clr-transpar;
+				}
+			}
+			img {
+				display: none;
+			}
+			div {
+				display: none;
+			}
+			ul {
+				margin: 0;
+				padding-left: 0;
+				li {
+					a {
+						color: $clr-fff;
+						font-size: 15px;
+						line-height: 1;
+						padding: 12px 0;
+						padding-left: 15px;
+					}
+					ul {
+						li {
+							a {
+								font-size: 14px;
+								padding-left: 40px;
+							}
+						}
+					}
+				}
+				li.slicknav_parent {
+					a {
+						color: $clr-fff;
+					}
+				}
+			}
+		}
+		.slicknav_parent {
+			.slicknav_item {
+				a {
+					padding-left: 0;
+					span {
+						+ {
+							span {
+								background-color: $bg-clr-546;
+								color: $clr-fff;
+								width: 36px;
+								font-size: 12px;
+								display: inline-block;
+								height: 16px;
+								text-align: center;
+								line-height: 16px;
+								border-radius: 50px;
+								position: relative;
+								top: -20px;
+								right: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.slicknav_open {
+			a {
+				>a {
+					color: $clr-eb3;
+				}
+			}
+			>.slicknav_item {
+				position: relative;
+				.slicknav_arrow {
+					color: $clr-eb3;
+					background-color: $bg-clr-transpar;
+				}
+			}
+			>ul {
+				>li.slicknav_open {
+					>a {
+						>a {
+							color: $clr-eb3;
+						}
+					}
+				}
+			}
+		}
+	}
+}
